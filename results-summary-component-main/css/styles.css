@@ -33,3 +33,37 @@ body {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   color: white;
 }
+
+.summary-section {
+  border: 2px solid red;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.summary {
+  /* border: 1px solid blue; */
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 10px;
+  /* flex-direction: column; */
+}
+
+.summary-activity {
+  display: flex;
+  gap: 1rem;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.reaction .summary-activity p {
+  color: var(--Light-red);
+}
+
+.bold-text {
+  font-weight:600 ;
+}
